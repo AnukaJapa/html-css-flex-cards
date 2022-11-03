@@ -36,7 +36,8 @@ justify-content: space-between;
 .box {
     width:30%;
     display: flex;
-    background-color: bisque;
+    color:white;
+    background-color: rgba(0, 0, 139, 0.863);
     margin-bottom:30px;
 }
 
