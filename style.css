@@ -5,6 +5,9 @@
     font-family: "Fredoka";
 }
 
+a {
+    color:lightblue;
+}
 .container {
     margin:auto;
     width:90%;
@@ -38,29 +41,27 @@ h1 {
         box-shadow:grey 0px 0px 3px;
     }
 
+img {
+        aspect-ratio:1/1;
+        min-width:130px;
+    }
+
+.personalInformation {
+        padding:5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 .detail>a, .detail>p, h2
 {
 padding:6px;
 }
 
-a {
-    color:lightblue;
+.detail {
+margin-bottom: 15px;
 }
 
 
 
 
-
-
-img {
-    width:20%;
-    aspect-ratio:1/1;
-    min-width:100px;
-}
-
-.personalInformation {
-    padding:5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
