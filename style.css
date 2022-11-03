@@ -11,10 +11,16 @@
     background-color: aliceblue;
 }
 
-.flexboxContainer {
-
-}
-
 h1 {
     color:deeppink;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+.flexboxContainer {
+display: flex;
+flex-wrap: wrap;
 }
