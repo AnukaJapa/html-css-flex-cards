@@ -7,20 +7,40 @@
 
 .container {
     margin:auto;
-    width:80%;
+    width:90%;
     background-color: aliceblue;
 }
 
 h1 {
     color:deeppink;
     text-align: center;
+    padding-top:20px;
+}
+
+.personalInformation>p, h2, h3
+{
+padding:6px;
 }
 
 #intro {
     text-align: center;
+    margin:2% 0;
 }
 
 .flexboxContainer {
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.box {
+    width:30%;
+    display: flex;
+    background-color: bisque;
+    margin-bottom:30px;
+}
+
+img {
+    width:30%;
+    aspect-ratio:1/1;
 }
